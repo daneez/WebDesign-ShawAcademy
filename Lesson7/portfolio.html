@@ -1,0 +1,75 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <link rel="stylesheet" href="portfolioCss.css">
+        <title>Portfolio | Savage Photography</title>
+    </head>
+        <body>
+                <div id="hamburger" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                    <a href="home.html">Home</a>
+                    <a href="myStory.html">My Story</a>
+                    <a href="career.html">Career</a>
+                    <a href="education.html">Education</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                    <img alt="profile" src="images/logo.png">
+
+                <span style="font-size:30px;cursor:pointer" onclick= "openNav()">&#9776</span>
+
+                <script>
+                    function openNav(){
+                        document.getElementById("hamburger").style.display ="block";
+                    }
+                    function closeNav(){
+                        document.getElementById("hamburger").style.display ="none";
+                    }
+                </script>
+                </div>
+                <div class="main">
+                    <h1>See The World Through My Eyes</h1>
+                    <!--main photo-->
+                    <div class="content">
+                        <img src="images/bench.jpg" art="gallery" style="width:100%">
+                    </div>
+                    <h3>Bench</h3>
+                </div>
+                <!-- table grib smaller 4 photos-->
+                <div class="row">
+                    <div class="column">
+                        <div class="content">
+                            <img src="images/buildings.jpg" alt="colors" style="width:100%;height:50%">
+                            <h3>Architecture</h3>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="content">
+                            <img src="images/happy.jpg" alt="happy" style="width:100%;height:50%">
+                            <h3>Portrait</h3>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="content">
+                            <img src="images/wolf.jpg" alt="animal" style="width:100%">
+                            <h3>Nature</h3>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="content">
+                            <img src="images/food.jpg" alt="happy" style="width:100%">
+                            <h3>Food Styling</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <img src="images/end.jpg" alt="bye" style="width:100%">
+                </div>
+                <div class="footer">
+                    <p>Copyright 2019</p>
+                </div>
+        </body>
+
+
+
+</html>
